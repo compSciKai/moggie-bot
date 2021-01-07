@@ -544,7 +544,13 @@ async def who_is_i(ctx):
     if name is not "":
         await ctx.send("One sec kupo, searching now...")
         name_arr = name.split(" ")
-        img = await get_player_card(name_arr[0], name_arr[1], name_arr[2])
+        try:
+            img = await get_player_card(name_arr[0], name_arr[1], name_arr[2])
+        except:
+            responses = ["I think I F'd this up, please try again Kupo",
+                    "I don't feel so good. I think I jumbled my codes kupo",
+                    "Try again later, I'm on my lunch break kupo"]
+            await ctx.send("{}".format(random.choice(responses)))
         arr = io.BytesIO()
         img.save(arr, format='JPEG')
         arr.seek(0)
