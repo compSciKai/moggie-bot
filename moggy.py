@@ -535,7 +535,7 @@ async def iam(ctx, world, forename, surname):
     'Who ami', 'who ami', 'who am i', 'Who Am I', 'Who am I'])
 async def who_is_i(ctx):
     # count
-    increase_use_count()
+    # await increase_use_count()
     # author lookup
     author = str(ctx.author)
     name = await lookup_name(author)
@@ -555,6 +555,7 @@ async def who_is_i(ctx):
     # else -- say "I don't know either, who are you kupo?"
     else:
         await ctx.send("I don't know either, you should probably use the ?iam command first, kupo")
+        await ctx.send("Like this: ?iam <server-name> <character-fullname>")
     await increase_use_count()
 
 @bot.command(name='whois', help='displays a player info in card.')
