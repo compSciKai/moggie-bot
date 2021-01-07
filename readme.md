@@ -1,6 +1,6 @@
 ## Player Card Output
 
-!player_card_example.png
+![](player_card_example.png)
 
 ## Supervisorctl commands
 
