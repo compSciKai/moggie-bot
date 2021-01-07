@@ -1,3 +1,7 @@
+## Player Card Output
+
+!player_card_example.png
+
 ## Supervisorctl commands
 
 Create a conf file such as bot.conf under /etc/supervisor/conf.d/
