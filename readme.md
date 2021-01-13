@@ -24,7 +24,7 @@ a portion of the player image background, and gradients using colers from player
 
 ## Moggie-bot hosting service commands
 
-Moggie-bot is hosted using Linux supervisorctl service, and implemented as follows:
+Moggie-bot is hosted using Linux supervisorctl service on a Raspberry Pi, and implemented as follows:
 
 Create a conf file such as bot.conf under /etc/supervisor/conf.d/
 Create a 2 log files such under /var/log/ called: 
