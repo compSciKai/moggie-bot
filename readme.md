@@ -23,7 +23,7 @@ resolution which seemlessly connects with player image. The extended background
 a portion of the player image background, and gradients using colers from player image.
 
 Moggie-bot can be added to discord channel with this link:
-[Moggie-bot](https://discord.com/oauth2/authorize?client_id=734119059695730719&permissions=0&redirect_uri=http%3A%2F%2F96.48.246.100%3A9292%2Fauthorize&scope=bot)
+[Moggie-bot](https://discord.com/oauth2/authorize?client_id=734119059695730719&permissions=0&redirect_uri=http%3A%2F%2F96.48.246.100%3A9292%2Fauthorize&scope=bot). Only a user with admin privileges to a discord server can add the bot. 
 
 ## Moggie-bot hosting service commands
 
