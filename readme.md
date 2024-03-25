@@ -4,7 +4,7 @@
 
 ## Overview
 
-Moggie-bot is a webhook service serving as a connection between the Discord API & XIVAPI.
+Moggie-bot is a webhook service serving as a connection between the Discord API & XIVAPI resources.
 In a Discord channel, a user querys a command such as '?whoami', the command is
 sent to a server hosting this service, and responds with an automated player card.
 
